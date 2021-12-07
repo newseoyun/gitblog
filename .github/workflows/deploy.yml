@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    name: b
+    name: github.io deploy
     runs-on: ubuntu-latest
     steps:
     - name: checkout source
@@ -20,7 +20,7 @@ jobs:
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: newseoyun/newseoyun.github.io
+        TARGET_REPO: /newseoyun/newseoyun.github.io
         TARGET_BRANCH: master
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: src/.vuepress/dist/
