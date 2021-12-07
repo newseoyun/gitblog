@@ -19,7 +19,7 @@ jobs:
     - name: deploy
       uses: jenkey2011/vuepress-deploy@master
       env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        ACCESS_TOKEN: ${{ secrets.GITHUB_blog_deploy }}
         TARGET_REPO: newseoyun/newseoyun.github.io
         TARGET_BRANCH: master
         BUILD_SCRIPT: yarn && yarn build
