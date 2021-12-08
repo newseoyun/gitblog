@@ -1,2 +1,3 @@
 ## Vuepress gitblog   
-빌드 후 newseoyun.github.io 에 배포할 소스.
+vuepress.
+Actions로 자동 배포하여 newseoyun.github.io 레포에 푸시함.
