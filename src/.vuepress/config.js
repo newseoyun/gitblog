@@ -27,7 +27,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '/newseoyun.github.io/',
+    repo: '/newseoyun',
     editLinks: false,
     docsDir: '',
     editLinkText: '',
