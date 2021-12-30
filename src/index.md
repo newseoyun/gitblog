@@ -11,4 +11,3 @@ features:
   details: Feature 2 Description
 footer: Made by seoyun with ❤️
 ---
-좀 되어라~~~~~   asdfsdfsdf
